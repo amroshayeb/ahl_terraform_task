@@ -126,19 +126,3 @@ If your setup includes CloudWatch monitoring, ensure that:
    }
    ```
 
-## Additional Notes
-
-- **State Management**: Terraform stores state files in the `.terraform` directory. Ensure that state files are managed securely and consider using remote state storage for team environments.
-- **Version Control**: Commit your changes to version control to keep track of configuration changes.
-
-## Troubleshooting
-
-If you encounter issues during setup or deployment:
-
-- **Check Terraform Documentation**: Refer to the [Terraform documentation](https://www.terraform.io/docs) for more information.
-- **Review Logs**: Check Terraform logs and error messages for clues.
-- **Seek Help**: Contact your team or consult the community forums if you need additional assistance.
-
----
-
-Feel free to adjust the instructions based on the specific details and requirements of your Terraform application.
